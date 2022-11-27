@@ -17,22 +17,34 @@ Input: "((()))"
 Output: True
 ```
 
+```
 Input: "[()]{}"
 Output: True
+```
 
+```
 Input: "({[)]"
 Output: False
+```
 
 Usage Examples:
 
+```
 python3 check_brackets.py "({[)]"
 Returns: False
+```
 
+```
 python3 check_brackets.py "[()]{}"
 Returns: True
+```
 
+```
 python3 check_brackets.py "[()]{}" "Something else"
 Returns: Wrong input
+```
 
+```
 python3 check_brackets.py
 Returns: Wrong input
+```
