@@ -11,6 +11,7 @@ just the characters '(', ')', '{', '}', '[' and ']', the script
 determines if the input string is valid
 
 Example:
+
 Input: "((()))"
 Output: True
 
@@ -20,7 +21,8 @@ Output: True
 Input: "({[)]"
 Output: False
 
-Usage:
+Usage Examples:
+
 python3 check_brackets.py "({[)]"
 Returns: False
 
