@@ -12,8 +12,10 @@ determines if the input string is valid
 
 Example:
 
+```
 Input: "((()))"
 Output: True
+```
 
 Input: "[()]{}"
 Output: True
